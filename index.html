@@ -43,6 +43,20 @@
             font-family: "Comic Sans", "Comic Sans MS", "Chalkboard",
                 "ChalkboardSE-Regular", "sans-serif";
         }
+
+        #logo {
+            animation: upDown 1.5s infinite alternate;
+        }
+
+        @keyframes upDown {
+            from {
+                transform: translateY(0);
+            }
+
+            to {
+                transform: translateY(20px);
+            }
+        }
     </style>
     <body>
         <main style="max-width: 320px; margin: 0 auto; text-align: center">
@@ -59,14 +73,14 @@
             >
                 McRib10x
             </h1>
-            <img alt="McRib10x" width="238" height="243" src="McRib10x.gif" />
+            <img id="logo" alt="McRib10x" width="270" src="NoBG.png" />
             <p>
-                McRib10x is a memecoin on Polygone ;) that will fat your wallet
-                x10 like the McRib does to you little fatty mf
+                McRib10x is a community driven memecoin on Polygone ;) that will
+                fat your wallet x10 like the McRib does to you little fatty mf
             </p>
             <p style="list-style-type: none">
-                50% airdrop<br />35% liquidity<br />10% treasury<br />5% $GONE
-                donators
+                50% airdrop to ecosystem<br />35% liquidity<br />10% treasury<br />5%
+                donators, we so broke
             </p>
             <p style="color: blue; text-decoration: underline; cursor: pointer">
                 ::: CHECK YOUR WALLET :::
